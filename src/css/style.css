@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    padding: 25px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width: 400px;
+}
+
+.nft-image{
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.nft-image .nft, .nft-image .hover{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.nft-image .hover{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%, 50%);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.hover:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-name{
+    font-size: 24px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+
+.description{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img{
+    margin-right: 5px;
+}
+
+.info .price p{
+    color: hsl(178, 100%, 50%);
+}
+
+.info .time-left p{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 20px;
+}
+
+.creator{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creator-avatar{
+    width: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.creator:last-child li{
+    display: flex;
+}
+
+.creator:last-child li p{
+    color: hsl(215, 51%, 70%);
+    margin-right: 5px;
+}
+
+.creator:last-child li a{
+    color: hsl(0, 0%, 100%);
+}
