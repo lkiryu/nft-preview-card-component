@@ -1,0 +1,10 @@
+@media(max-width:425px){
+    .card{
+        width: 280px;
+    }
+
+    .nft-image .nft, .nft-image .hover{
+        width: 230px;
+        height: 230px;
+    }
+}
