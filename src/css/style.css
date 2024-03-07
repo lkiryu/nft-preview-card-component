@@ -56,6 +56,11 @@ body{
     font-size: 24px;
     font-weight: 600;
     color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+
+.nft-name:hover{
+    color: hsl(178, 100%, 50%);
 }
 
 .description{
@@ -117,4 +122,9 @@ hr{
 
 .creator:last-child li a{
     color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+}
+
+.creator:last-child li a:hover{
+    color: hsl(178, 100%, 50%);
 }
